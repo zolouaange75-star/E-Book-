@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Livre</title>
+    <link rel="stylesheet" href="style.css">
+       <script src="https://kit.fontawesome.com/9163b2bedf.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+            <li><a href="login.html"><i class="fas fa-sign-in-alt"></i>Connexion</a></li>
+            <li><a href="catalogue.html"><i class="fas fa-book-open"></i>Catalogue</a></li>
+            <li><a href="lecture.html"><i class="fas fa-book-reader"></i>Lecture</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1>Catalogue</h1>
+    <section>
+        <h2>Découvrez notre catalogue de livres</h2>
+        <p>Explorez notre vaste collection de livres numériques couvrant une variété de genres et d'auteurs. Que vous
+            soyez à la recherche de classiques intemporels, de best-sellers contemporains ou de perles rares, notre
+            catalogue a quelque chose à offrir à chaque lecteur.</p>
+        <ul>
+            <style>
+                img{
+                    width:100%;
+                    height:300px;
+                    object-fit:cover;
+                }
+            </style>
+            <li><img src="images/Couvertures, images et illustrations de Le Petit….jpeg" alt="Le Petit Prince"> Le Petit
+                Prince - Antoine de Saint-Exupéry écrit en 1943 par un auteur français du nom de Antoine de
+                Saint-Exupéry
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/Bargainbookstores 1984 (Paperback or Softback) By….jpeg" alt="1984"> 1984 - George Orwell écrit en 1949 par un auteur
+                anglais du nom de George Orwell
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/Les Misérables - Victor Hugo_ Édition collector Intégrale - Grand Format - Texte intégral - Tomes 1 à 5 - Annotée d'une biographie détaillée.jpeg"
+                    alt="Les Misérables">Les misérables écrit par Victor HUGO 
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/10485011673920813.jpeg" alt="Harry Potter à l'école des sorciers"> Harry Potter à
+                l'école des sorciers - J.K. Rowling écrit en 1997 par une auteure anglaise du nom de J.K. Rowling
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/Le Seigneur des Anneaux.jpeg" alt="Le Seigneur des Anneaux"> Le Seigneur des Anneaux -
+                J.R.R. Tolkien écrit en 195 par un auteur anglais du nom de J.R.R. Tolkien
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/852235929526167160.jpeg" alt="Sous l'orage">Sous l'orage; Auteur : Seydou Badian
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/L'Enfant noir - Livre de Camara Laye.jpeg" alt="Sous l'orage">L'Enfant noir; Auteur :
+                Camara Laye
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+            <li><img src="images/399694535699377506.jpeg" alt="Sous l'orage">Le journal d'un boy; Auteur : Amadou
+                Hampâté Bâ
+                <br> <button>Lire</button> <br><button>Télécharger</button>
+            </li>
+        </ul>
+    </section>
+    <section>
+        filtrer par catégorie
+        <select name="category" id="category">
+            <option value="all">Tous les genres</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-fiction</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="science-fiction">Science-fiction</option>
+            <option value="romance">Romance</option>
+            <option value="mystery">Mystère</option>
+            <option value="biography">Biographie</option>
+            <option value="history">Histoire</option>
+            <option value="self-help">Développement personnel</option>  
+        </select>
+        <button>Filtrer</button>
+    </section>
+    <footer>
+        <p>&copy; 2026 E-Livre. Tous droits réservés.</p>
+    </footer>
+</body>
