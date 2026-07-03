@@ -1,5 +1,5 @@
 :root {
-  --bg-image: #144ad2;
+  --bg-image: #86a0e0;
   --surface: #fbfdff;
   --surface-strong: #e7eef8;
   --text: #1f2937;
@@ -50,7 +50,7 @@ textarea {
 }
 
 header {
-  background: var(--surface);
+  background: rgba(245, 248, 250, 0.92);
   padding: 1rem 1.5rem;
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
   position: sticky;
